@@ -2,7 +2,7 @@
 
 ***Nota: Utilizaremos os seguintes critérios para a avaliação: Desempenho, Testes, Manutenabilidade, Separação de responsabilidades e boas práticas de engenharia de software.***
 
-1. - Você foi convidado a participar de um time/squad que será responsável pelo novo sistema de back-office web da empresa, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. 
+1. Você foi convidado a participar de um time/squad que será responsável pelo novo sistema de back-office web da empresa, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. 
 Descreva como você organizaria esse projeto, lembrando que o Front-End será apenas a interface dos usuários com as API’s que farão o CRUD com o banco de dados no back-end. Descreva como seria a estrutura e organização do código, componentes e frameworks que você pretende utilizar.
 
 2. Descreva como você implementaria uma solução de busca para um e-commerce com um catálogo de aproximadamente quinhentos mil produtos, descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. 
