@@ -18,7 +18,7 @@ GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/health
 ```
 DICA1: utilize o endpoint de teste acima, mas mantenha o codigo parametrizável, seja via variável de ambiente, ou arquivo de configuração.
 
-2.a. O seu time está a desenvolver um e-commerce com um catálogo de aproximadamente quinhentos mil produtos. Você foi designado para desenvolver o painel de pedidos. Utilizando o contrato abaixo, desenvolva um painel de listagem de pedidos, com a possibilidade de busca por `status`, `valor`, `data de atualização` e `carteira de pagamento`. 
+2. O seu time está a desenvolver um e-commerce com um catálogo de aproximadamente quinhentos mil produtos! Você foi designado para desenvolver o painel de pedidos do vendedor. Utilizando o contrato abaixo, desenvolva um painel de listagem de pedidos, com a possibilidade de busca por `status`, `valor`, `data de atualização` e `carteira de pagamento`. Ao selecionar o `id`, o painel deve expor um modal com as informações daquele pedido. 
 
 ```
 # request:
@@ -56,15 +56,13 @@ GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/pedido/1232132132
     "wallet_payment_id": null,
     "product_id": "123456",
     "product_name": "bala de canela",
-    "product_description": "bala deliciosa de canela",
+    "product_description": "bala maravilhosa de canela",
     "product_image": "https://www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.5-s.png"
 }
 
 ```
 
-2.b Descreva como você codificaria os testes referentes as suas entregas da sprint na reunião de review. Quais componentes e frameworks que você utilizaria. E na sua visão quais seriam os testes mínimos que o desenvolvedor deveria escrever?  
-
-3. Você foi selecionado para ser o mentor dos desenvolvedores juniors durante a próxima sprint. Ao final da primeira daily meeting um dos desenvolvedores questionou quais seriam os motivos para utilizarmos os seguintes componentes na nossa aplicação: Responsive Front-end framework e o CSS Preprocessor. Como você justificaria a necessidade e utilização dos referidos componentes?
+3. Um outro colega da squad foi designado(a) para desenvolver a pagina de busca de produtos do mesmo e-commerce que você está trabalhando (no exercício anterior). Os requisitos para a página de produtos tráz uma complexidade a mais para a solução. Descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. O resultado exibirá uma página de detalhe do item (quando o match for assertivo o suficiente) ou uma lista de possíveis itens para quando o match for aproximado. Descreva os componentes, frameworks, e implementações necessárias no front-end para permitir o funcionamento da busca, a renderização de thumbnails na pagina de listagem, renderização imagens de alta resolução na página de detalhes bem como suas sugestões de infraestrutura para otimizar o funcionamento da necessidade.
 
 
 BOA SORTE!
