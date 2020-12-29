@@ -2,7 +2,25 @@
 
 ***Nota: Utilizaremos os seguintes critérios para a avaliação: Desempenho, Testes, Manutenabilidade, Separação de responsabilidades e boas práticas de engenharia de software.***
 
-1. Você foi convidado a participar de um time/squad que será responsável pelo novo sistema de back-office web da empresa, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. 
+1. Foi levantado uma tarefa pelo time de produto para a criação de um painel de de monitoramento integrações pró-ativo, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. O frontend “Server Side-Rendering” deverá fazer chamadas para um serviço no endpoint `shipay-intergration-synthetic-health.sre.svc.cluster.local:8080/all`. Com essas informações em mão, desenvolva um portal “Server Side-Rendering” que atenda aos requisitos descritos acima versionando o codigo no git. 
+
+Para auxiliar nesse desafio, desponibilizamos o seguinte endpoint:
+
+```
+# request:
+GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/health
+
+# response:
+{
+    "message": "all services are up and running",
+    "status":"200"
+}
+```
+
+
+
+
+Você foi convidado a participar de um time/squad que será responsável pelo novo sistema de back-office web da empresa, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. 
 Descreva como você organizaria esse projeto, lembrando que o Front-End será apenas a interface dos usuários com as API’s que farão o CRUD com o banco de dados no back-end. Descreva como seria a estrutura e organização do código, componentes e frameworks que você pretende utilizar.
 
 2. Descreva como você implementaria uma solução de busca para um e-commerce com um catálogo de aproximadamente quinhentos mil produtos, descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. 
