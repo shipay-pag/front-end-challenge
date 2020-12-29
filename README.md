@@ -2,7 +2,7 @@
 
 ***Nota: Utilizaremos os seguintes critérios para a avaliação: Desempenho, Testes, Manutenabilidade, Separação de responsabilidades e boas práticas de engenharia de software.***
 
-1. Foi levantado uma tarefa pelo time de produto para a criação de um painel de monitoramento pró-ativo de integrações, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. O frontend “Server Side-Rendering” deverá fazer chamadas para um serviço no endpoint `shipay-intergration-synthetic-health.sre.svc.cluster.local:8080/health`. Com essas informações em mão, desenvolva um portal “Server Side-Rendering” que atenda aos requisitos descritos acima versionando o codigo no git. 
+1. Foi levantado uma tarefa pelo time de produto para a criação de um painel de monitoramento pró-ativo de integrações, e por alguns motivos o time de arquitetura e segurança da informação sugeriram que esse novo portal fosse desenvolvido em AngularJS porém “Server Side-Rendering”, e coube a você desenhar a estrutura inicial do projeto. O frontend “Server Side-Rendering” deverá fazer chamadas para um serviço no endpoint `shipay-intergration-synthetic-health.sre.svc.cluster.local:8080/health`. Com essas informações em mão, desenvolva um portal “Server Side-Rendering” que atenda aos requisitos descritos acima versionando o código no git. 
 
 Para auxiliar nesse desafio, desponibilizamos o seguinte endpoint.
 
@@ -16,9 +16,9 @@ GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/health
     "status":"200"
 }
 ```
-DICA1: utilize o endpoint de teste acima, mas mantenha o codigo parametrizável, seja via variável de ambiente, ou arquivo de configuração.
+DICA1: utilize o endpoint de teste acima, mas mantenha o código parametrizável, seja via variável de ambiente, ou arquivo de configuração.
 
-2. O seu time está a desenvolver um e-commerce com um catálogo de aproximadamente quinhentos mil produtos! Você foi designado para desenvolver o painel de pedidos do vendedor. Utilizando o contrato abaixo, desenvolva um painel de listagem de pedidos, com a possibilidade de busca por `status`, `valor`, `data de atualização` e `carteira de pagamento`. Ao selecionar o `id`, o painel deve expor um modal com as informações daquele pedido. 
+2. O seu time está a desenvolver um e-commerce com um catálogo de aproximadamente quinhentos mil produtos! Você foi designado para desenvolver o painel de pedidos do vendedor. Utilizando o contrato abaixo, desenvolva um painel de listagem de pedidos, com a possibilidade de busca por `status`, `valor`, `data de atualização` e `carteira de pagamento`. Ao selecionar o `id`, o painel deve expor um modal com as informações daquele pedido. Desenvolver (se possível) testes para os componentes desenvolvidos.
 
 ```
 # request:
@@ -62,7 +62,7 @@ GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/pedido/1232132132
 
 ```
 
-3. Um outro colega da squad foi designado(a) para desenvolver a pagina de busca de produtos do mesmo e-commerce que você está trabalhando (no exercício anterior). Os requisitos para a página de produtos tráz uma complexidade a mais para a solução. Descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. O resultado exibirá uma página de detalhe do item (quando o match for assertivo o suficiente) ou uma lista de possíveis itens para quando o match for aproximado. Descreva os componentes, frameworks, e implementações necessárias no front-end para permitir o funcionamento da busca, a renderização de thumbnails na pagina de listagem, renderização imagens de alta resolução na página de detalhes bem como suas sugestões de infraestrutura para otimizar o funcionamento da necessidade.
+3. Um outro colega da squad foi designado(a) para desenvolver a página de busca de produtos do mesmo e-commerce que você está trabalhando (no exercício anterior). Os requisitos para a página de produtos tráz uma complexidade a mais para a solução. Descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. O resultado exibirá uma página de detalhe do item (quando o match for assertivo o suficiente) ou uma lista de possíveis itens para quando o match for aproximado. Descreva os componentes, frameworks, e implementações necessárias no front-end para permitir o funcionamento da busca, a renderização de thumbnails na pagina de listagem, renderização imagens de alta resolução na página de detalhes bem como suas sugestões de infraestrutura para otimizar o funcionamento da necessidade.
 
 
 BOA SORTE!
