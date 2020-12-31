@@ -62,7 +62,4 @@ GET https://5da3e170-21ce-4dd0-ae72-ad757f7864a6.mock.pstmn.io/pedido/1232132132
 
 ```
 
-3. Um outro colega da squad foi designado(a) para desenvolver a página de busca de produtos do mesmo e-commerce que você está trabalhando (no exercício anterior). Os requisitos para a página de produtos tráz uma complexidade a mais para a solução. Descreva os itens necessários para termos uma listagens dos produtos com imagens filtradas por categoria, a barra de busca deverá permitir buscas de itens por nome, categoria, funcionalidade e marca. O resultado exibirá uma página de detalhe do item (quando o match for assertivo o suficiente) ou uma lista de possíveis itens para quando o match for aproximado. Descreva os componentes, frameworks, e implementações necessárias no front-end para permitir o funcionamento da busca, a renderização de thumbnails na pagina de listagem, renderização imagens de alta resolução na página de detalhes bem como suas sugestões de infraestrutura para otimizar o funcionamento da necessidade.
-
-
 BOA SORTE!
